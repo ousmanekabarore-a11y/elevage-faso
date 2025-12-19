@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laafi Ferme – Élevage & Formation</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4fdf7;
+    color:#222;
+}
+
+/* HEADER */
+header{
+    background:#0a8f3d;
+    color:white;
+    text-align:center;
+    padding:20px 10px;
+}
+header img{
+    max-width:140px;
+    border-radius:50%;
+    background:white;
+    padding:5px;
+}
+header h1{
+    margin:10px 0 5px;
+}
+header p{
+    margin:0;
+    font-size:16px;
+}
+
+/* MENU */
+nav{
+    background:#087a34;
+    padding:10px;
+}
+nav ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+nav li{
+    margin:5px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    padding:8px 12px;
+    border-radius:5px;
+    background:#0a8f3d;
+}
+
+/* CONTENU */
+section{
+    padding:20px;
+}
+h2{
+    color:#0a8f3d;
+}
+.card{
+    background:white;
+    padding:15px;
+    margin:12px 0;
+    border-radius:8px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+.btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:14px 22px;
+    background:#0a8f3d;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+/* FOOTER */
+footer{
+    background:#0a8f3d;
+    color:white;
+    text-align:center;
+    padding:15px;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <!-- LOGO CORRIGÉ -->
+    <img src="IMG-20251214-WA0021.jpg" alt="Laafi Ferme Logo">
+    <h1>Laafi Ferme</h1>
+    <p>Votre réussite en élevage commence ici</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">Qui sommes-nous</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#formation">Formations</a></li>
+        <li><a href="#produits">Produits</a></li>
+        <li><a href="#temoignages">Témoignages</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="accueil">
+    <h2>Bienvenue à Laafi Ferme</h2>
+    <p>
+        À Laafi Ferme, nous croyons que tout jeune motivé peut réussir en élevage,
+        même avec des moyens limités, à condition d’avoir la bonne information,
+        un bon accompagnement et de la discipline.
+    </p>
+</section>
+
+<section id="apropos">
+    <h2>Qui sommes-nous ?</h2>
+    <p>
+        Laafi Ferme est née d’une passion pour l’élevage et d’un constat simple :
+        beaucoup d’éleveurs échouent par manque de bonnes informations.
+    </p>
+    <p><strong>Mission :</strong> Former, accompagner et motiver les éleveurs.</p>
+    <p><strong>Vision :</strong> Une Afrique avec des éleveurs compétents et prospères.</p>
+</section>
+
+<section id="services">
+    <h2>Nos services</h2>
+
+    <div class="card">
+        <strong>🐔 Formation en élevage agricole</strong>
+        <ul>
+            <li>Démarrage des poussins</li>
+            <li>Alimentation et abreuvement</li>
+            <li>Prévention des maladies</li>
+            <li>Gestion de la mortalité</li>
+            <li>Rentabilité</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <strong>📊 Suivi et accompagnement</strong>
+        <p>Accompagnement terrain et à distance.</p>
+    </div>
+
+    <div class="card">
+        <strong>🛒 Vente de produits d’élevage</strong>
+        <p>Poussins, aliments, vitamines et matériels.</p>
+    </div>
+</section>
+
+<section id="formation">
+    <h2>🎓 Formation en ligne GRATUITE</h2>
+    <p>
+        Les formations se font via WhatsApp (messages, audios, vidéos, documents).
+        Accessibles à tous.
+    </p>
+
+    <a class="btn"
+       href="https://wa.me/22677968794?text=Bonjour%20je%20veux%20suivre%20la%20formation%20gratuite%20en%20ligne"
+       target="_blank">
+       Rejoindre la formation
+    </a>
+</section>
+
+<section id="produits">
+    <h2>Produits & équipements</h2>
+    <ul>
+        <li>Mangeoires et abreuvoirs</li>
+        <li>Aliments pour volailles</li>
+        <li>Vitamines et compléments</li>
+        <li>Produits vétérinaires</li>
+    </ul>
+</section>
+
+<section id="temoignages">
+    <h2>Témoignages</h2>
+    <div class="card">
+        « Grâce à Laafi Ferme, j’ai réduit la mortalité de mes poussins. »
+    </div>
+    <div class="card">
+        « J’ai commencé avec peu de moyens et je progresse chaque cycle. »
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p><strong>WhatsApp / Téléphone :</strong> 77 96 87 94</p>
+    <p><strong>Zone :</strong> Burkina Faso</p>
+
+    <a class="btn" href="https://wa.me/22677968794" target="_blank">
+        Contacter sur WhatsApp
+    </a>
+</section>
+
+<footer>
+    © 2025 Laafi Ferme – Élevage & Formation
+</footer>
+
+</body>
+</html>
